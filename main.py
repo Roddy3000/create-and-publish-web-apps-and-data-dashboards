@@ -16,3 +16,4 @@ Enjoy it'''
 
 st.write(df)
 st.line_chart(df)
+st.area_chart(df)
