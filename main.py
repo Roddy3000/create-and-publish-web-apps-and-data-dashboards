@@ -6,7 +6,7 @@ data = {
   'Series_2':[10,30,40,100,250]
 }
 
-df = pandas.Dataframe(data)
+df = pandas.DataFrame(data)
 
 st.title('first streamlit app')
 st.subheader('Introduction')
@@ -15,3 +15,4 @@ Enjoy it'''
 )
 
 st.write(df)
+st.line_chart(df)
