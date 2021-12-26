@@ -17,3 +17,6 @@ Enjoy it'''
 st.write(df)
 st.line_chart(df)
 st.area_chart(df)
+
+my_slider = st.slider('Celcius')
+st.write(my_slider, 'in fahrenheit is', my_slider * 9/5 + 32)
